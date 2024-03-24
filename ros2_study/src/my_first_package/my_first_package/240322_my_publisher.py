@@ -3,7 +3,11 @@ from rclpy.node import Node
 
 from geometry_msgs.msg import Twist
 
-# turtle1 이 구독하는 cmd_vel 토픽을 , 발행하기
+
+# 개념:
+# 발행하는 코드이다.
+# 뭐를? Twist 타입(데이터 정의) 사용하여,
+# turtle 1에 cmd_vel 토픽을 버스를 통해 데이터를 전달한다.
 class TurtlesimPublisher(Node):
     def __init__(self):
         super().__init__('turtlesim_publisher')
