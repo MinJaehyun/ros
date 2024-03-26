@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'my_first_node = my_first_package.my_first_node:main',
-            'my_subscriber = my_first_package.my_subscriber:main'
+            'my_subscriber = my_first_package.my_subscriber:main',
+            "turtle_cmd_and_pose = my_first_package.turtle_cmd_and_pose:main",
+            "240322_my_publisher = my_first_package.240322_my_publisher:main",
         ],
     },
 )
