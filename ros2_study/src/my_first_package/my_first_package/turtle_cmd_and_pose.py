@@ -31,7 +31,7 @@ class CmdAndPose(Node):
   # 추가: 상단에서 전역으로 인스턴스화한 self.cmd_pose 사용하여 새로운 데이터 정의함
   def callback_cmd(self, msg):
     self.cmd_pose.cmd_vel_linear = msg.linear.x
-    self.cmd_pose.cmd.vel_angular = msg.angular.z
+    self.cmd_pose.cmd_vel_angular = msg.angular.z
     print(self.cmd_pose)
 
 
