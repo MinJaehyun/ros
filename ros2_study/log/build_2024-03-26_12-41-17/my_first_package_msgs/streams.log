@@ -1,0 +1,31 @@
+[0.023s] Invoking command in '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs': CMAKE_PREFIX_PATH=/home/krism01/python/ros/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/krism01/python/ros/ros2_study/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/krism01/python/ros/ros2_study/install/my_first_package_msgs
+[0.444s] -- The C compiler identification is GNU 11.4.0
+[0.643s] -- The CXX compiler identification is GNU 11.4.0
+[0.699s] -- Detecting C compiler ABI info
+[0.861s] -- Detecting C compiler ABI info - done
+[0.877s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.881s] -- Detecting C compile features
+[0.883s] -- Detecting C compile features - done
+[0.891s] -- Detecting CXX compiler ABI info
+[1.154s] -- Detecting CXX compiler ABI info - done
+[1.182s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.183s] -- Detecting CXX compile features
+[1.186s] -- Detecting CXX compile features - done
+[1.229s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.279s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.572s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.826s] -- Added test 'lint_cmake' to check CMake code style
+[2.830s] -- Added test 'xmllint' to check XML markup files
+[2.840s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.884s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.093s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:64 (message):
+[3.094s]   rosidl_generate_interfaces() must be called before ament_package()
+[3.095s] Call Stack (most recent call first):
+[3.096s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[3.097s] 
+[3.097s] [0m
+[3.099s] -- Configuring incomplete, errors occurred!
+[3.100s] See also "/home/krism01/python/ros/ros2_study/build/my_first_package_msgs/CMakeFiles/CMakeOutput.log".
+[3.110s] Invoked command in '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs' returned '1': CMAKE_PREFIX_PATH=/home/krism01/python/ros/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/krism01/python/ros/ros2_study/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/krism01/python/ros/ros2_study/install/my_first_package_msgs
