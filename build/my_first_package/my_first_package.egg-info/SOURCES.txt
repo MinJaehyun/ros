@@ -12,6 +12,7 @@ my_first_package/240322_doc_publisher.py
 my_first_package/__init__.py
 my_first_package/my_first_node.py
 my_first_package/my_publisher.py
+my_first_package/my_service_server.py
 my_first_package/my_subscriber.py
 my_first_package/turtle_cmd_and_pose.py
 resource/my_first_package
