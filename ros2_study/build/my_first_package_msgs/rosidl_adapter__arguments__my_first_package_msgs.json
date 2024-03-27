@@ -1,6 +1,0 @@
-{
-  "package_name": "my_first_package_msgs",
-  "non_idl_tuples": [
-    "/home/krism01/python/ros/ros2_study/src/my_first_package_msgs:msg/CmdAndPoseVel.msg"
-  ]
-}

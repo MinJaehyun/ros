@@ -1,0 +1,2 @@
+Invoking command in '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs': /usr/bin/cmake --build /home/krism01/python/ros/ros2_study/build/my_first_package_msgs -- -j2 -l2
+Invoked command in '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs' returned '2': /usr/bin/cmake --build /home/krism01/python/ros/ros2_study/build/my_first_package_msgs -- -j2 -l2
