@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000121] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.000155] (my_first_package_msgs) JobQueued: {'identifier': 'my_first_package_msgs', 'dependencies': OrderedDict()}
+[0.000660] (my_first_package_msgs) JobStarted: {'identifier': 'my_first_package_msgs'}
+[0.027251] (my_first_package_msgs) JobProgress: {'identifier': 'my_first_package_msgs', 'progress': 'cmake'}
+[0.029344] (my_first_package_msgs) JobProgress: {'identifier': 'my_first_package_msgs', 'progress': 'build'}
+[0.083816] (my_first_package_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs', '--', '-j2', '-l2'], 'cwd': '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'krism01'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/krism01'), ('OLDPWD', '/home/krism01/python/ros/ros2_study/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1477'), ('SYSTEMD_EXEC_PID', '1628'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2926'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'krism01'), ('JOURNAL_STREAM', '8:24678'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'krism01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/krism01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/krism01-VirtualBox:@/tmp/.ICE-unix/1596,unix/krism01-VirtualBox:/tmp/.ICE-unix/1596'), ('INVOCATION_ID', 'de2199f1aed14c17bc1ab3d6a39fa043'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HQIOL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e61ac565-965f-446f-bca5-e506c508576f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.100201] (-) TimerEvent: {}
+[0.229165] (-) TimerEvent: {}
+[0.330770] (-) TimerEvent: {}
+[0.468740] (-) TimerEvent: {}
+[0.553557] (my_first_package_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:18:\n'}
+[0.553801] (my_first_package_msgs) StderrLine: {'line': b'  Syntax Warning in cmake code at column 26\n'}
+[0.554093] (my_first_package_msgs) StderrLine: {'line': b'\n'}
+[0.554178] (my_first_package_msgs) StderrLine: {'line': b'  Argument not separated from preceding token by whitespace.\n'}
+[0.554255] (my_first_package_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.554389] (my_first_package_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.554471] (my_first_package_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:19:\n'}
+[0.554546] (my_first_package_msgs) StderrLine: {'line': b'  Syntax Warning in cmake code at column 23\n'}
+[0.554620] (my_first_package_msgs) StderrLine: {'line': b'\n'}
+[0.554694] (my_first_package_msgs) StderrLine: {'line': b'  Argument not separated from preceding token by whitespace.\n'}
+[0.554768] (my_first_package_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.554842] (my_first_package_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.572258] (-) TimerEvent: {}
+[0.643842] (my_first_package_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.679607] (-) TimerEvent: {}
+[0.821146] (-) TimerEvent: {}
+[0.928481] (-) TimerEvent: {}
+[1.036944] (-) TimerEvent: {}
+[1.072753] (my_first_package_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.073026] (my_first_package_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[1.073108] (my_first_package_msgs) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[1.073185] (my_first_package_msgs) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[1.084875] (my_first_package_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[1.085096] (my_first_package_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.085181] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[1.085294] (my_first_package_msgs) StderrLine: {'line': b'  /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/ament_cmake_package_templates/templates.cmake)\n'}
+[1.085464] (my_first_package_msgs) StderrLine: {'line': b'  returned error code 1\n'}
+[1.085625] (my_first_package_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.085885] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.086137] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.086403] (my_first_package_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[1.097114] (my_first_package_msgs) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[1.097321] (my_first_package_msgs) StderrLine: {'line': b'\n'}
+[1.097402] (my_first_package_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.112162] (my_first_package_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.112348] (my_first_package_msgs) StdoutLine: {'line': b'See also "/home/krism01/python/ros/ros2_study/build/my_first_package_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.138189] (-) TimerEvent: {}
+[1.148219] (my_first_package_msgs) StderrLine: {'line': b'gmake: *** [Makefile:747: cmake_check_build_system] Error 1\n'}
+[1.148364] (my_first_package_msgs) CommandEnded: {'returncode': 2}
+[1.243378] (-) TimerEvent: {}
+[1.344081] (-) TimerEvent: {}
+[1.461878] (-) TimerEvent: {}
+[1.578907] (-) TimerEvent: {}
+[1.625544] (my_first_package_msgs) JobEnded: {'identifier': 'my_first_package_msgs', 'rc': 2}
+[1.639757] (-) EventReactorShutdown: {}
