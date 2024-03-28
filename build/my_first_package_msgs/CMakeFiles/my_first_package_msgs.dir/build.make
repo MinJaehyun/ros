@@ -70,6 +70,11 @@ CMakeFiles/my_first_package_msgs: /home/krism01/python/ros/ros2_study/src/my_fir
 CMakeFiles/my_first_package_msgs: /home/krism01/python/ros/ros2_study/src/my_first_package_msgs/srv/MultiSpawn.srv
 CMakeFiles/my_first_package_msgs: rosidl_cmake/srv/MultiSpawn_Request.msg
 CMakeFiles/my_first_package_msgs: rosidl_cmake/srv/MultiSpawn_Response.msg
+CMakeFiles/my_first_package_msgs: /home/krism01/python/ros/ros2_study/src/my_first_package_msgs/action/DistTurtle.action
+CMakeFiles/my_first_package_msgs: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/my_first_package_msgs: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/my_first_package_msgs: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/my_first_package_msgs: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 
 my_first_package_msgs: CMakeFiles/my_first_package_msgs
 my_first_package_msgs: CMakeFiles/my_first_package_msgs.dir/build.make
