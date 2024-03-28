@@ -1,0 +1,573 @@
+[0.000000] (-) TimerEvent: {}
+[0.000323] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.000545] (my_first_package_msgs) JobQueued: {'identifier': 'my_first_package_msgs', 'dependencies': OrderedDict()}
+[0.000727] (my_first_package_msgs) JobStarted: {'identifier': 'my_first_package_msgs'}
+[0.022281] (my_first_package_msgs) JobProgress: {'identifier': 'my_first_package_msgs', 'progress': 'cmake'}
+[0.024167] (my_first_package_msgs) JobProgress: {'identifier': 'my_first_package_msgs', 'progress': 'build'}
+[0.025450] (my_first_package_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs', '--', '-j2', '-l2'], 'cwd': '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'krism01'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/krism01'), ('OLDPWD', '/home/krism01/python/ros/ros2_study/src/my_first_package_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1515'), ('SYSTEMD_EXEC_PID', '1657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3691'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/krism01/python/ros/ros2_study/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'krism01'), ('JOURNAL_STREAM', '8:24087'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'krism01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/krism01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/krism01-VirtualBox:@/tmp/.ICE-unix/1638,unix/krism01-VirtualBox:/tmp/.ICE-unix/1638'), ('INVOCATION_ID', 'e2738b595ba94ff2bcda8dea9ebde417'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AMNIL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs:/home/krism01/python/ros/ros2_study/install/my_first_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:82b32b22-06a0-4fdc-8c54-2aa3126555b3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages:/home/krism01/python/ros/ros2_study/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs:/home/krism01/python/ros/ros2_study/install/my_first_package:/opt/ros/humble')]), 'shell': False}
+[0.105625] (-) TimerEvent: {}
+[0.212810] (-) TimerEvent: {}
+[0.313599] (-) TimerEvent: {}
+[0.322075] (my_first_package_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.413680] (-) TimerEvent: {}
+[0.514059] (-) TimerEvent: {}
+[0.623071] (-) TimerEvent: {}
+[0.696178] (my_first_package_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.700860] (my_first_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.709667] (my_first_package_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.724988] (-) TimerEvent: {}
+[0.820233] (my_first_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.825066] (-) TimerEvent: {}
+[0.925323] (-) TimerEvent: {}
+[1.030403] (-) TimerEvent: {}
+[1.136819] (-) TimerEvent: {}
+[1.237541] (-) TimerEvent: {}
+[1.337829] (-) TimerEvent: {}
+[1.438787] (-) TimerEvent: {}
+[1.539100] (-) TimerEvent: {}
+[1.651709] (-) TimerEvent: {}
+[1.664294] (my_first_package_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.756936] (-) TimerEvent: {}
+[1.861170] (-) TimerEvent: {}
+[1.961786] (-) TimerEvent: {}
+[2.027184] (my_first_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.063040] (-) TimerEvent: {}
+[2.164577] (-) TimerEvent: {}
+[2.266391] (-) TimerEvent: {}
+[2.373528] (-) TimerEvent: {}
+[2.473852] (-) TimerEvent: {}
+[2.574751] (-) TimerEvent: {}
+[2.579263] (my_first_package_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.610621] (my_first_package_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.674339] (my_first_package_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.674743] (my_first_package_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.674847] (-) TimerEvent: {}
+[2.675080] (my_first_package_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.706251] (my_first_package_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.775055] (-) TimerEvent: {}
+[2.785875] (my_first_package_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.788030] (my_first_package_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.793348] (my_first_package_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.881263] (-) TimerEvent: {}
+[2.930030] (my_first_package_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.980586] (my_first_package_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/krism01/python/ros/ros2_study/build/my_first_package_msgs\n'}
+[2.986105] (-) TimerEvent: {}
+[3.065701] (my_first_package_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.105868] (-) TimerEvent: {}
+[3.192478] (my_first_package_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.213225] (-) TimerEvent: {}
+[3.332570] (-) TimerEvent: {}
+[3.448527] (-) TimerEvent: {}
+[3.553330] (-) TimerEvent: {}
+[3.662323] (-) TimerEvent: {}
+[3.768780] (-) TimerEvent: {}
+[3.872575] (-) TimerEvent: {}
+[3.989647] (-) TimerEvent: {}
+[4.102030] (-) TimerEvent: {}
+[4.214749] (-) TimerEvent: {}
+[4.341168] (-) TimerEvent: {}
+[4.471363] (-) TimerEvent: {}
+[4.593491] (-) TimerEvent: {}
+[4.701331] (-) TimerEvent: {}
+[4.822086] (-) TimerEvent: {}
+[4.929196] (-) TimerEvent: {}
+[5.030140] (-) TimerEvent: {}
+[5.140320] (-) TimerEvent: {}
+[5.213912] (my_first_package_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_generator_c\x1b[0m\n'}
+[5.253767] (-) TimerEvent: {}
+[5.278234] (my_first_package_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.c.o\x1b[0m\n'}
+[5.354010] (-) TimerEvent: {}
+[5.468735] (-) TimerEvent: {}
+[5.576473] (-) TimerEvent: {}
+[5.599566] (my_first_package_msgs) StdoutLine: {'line': b'[  6%] Built target my_first_package_msgs__cpp\n'}
+[5.685727] (-) TimerEvent: {}
+[5.686532] (my_first_package_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__functions.c.o\x1b[0m\n'}
+[5.697397] (my_first_package_msgs) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_copy_my_first_package_msgs\n'}
+[5.712239] (my_first_package_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.785819] (-) TimerEvent: {}
+[5.874741] (my_first_package_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__functions.c.o\x1b[0m\n'}
+[5.885954] (-) TimerEvent: {}
+[5.989273] (-) TimerEvent: {}
+[6.096620] (-) TimerEvent: {}
+[6.108730] (my_first_package_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libmy_first_package_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[6.199165] (-) TimerEvent: {}
+[6.226533] (my_first_package_msgs) StdoutLine: {'line': b'[ 14%] Built target my_first_package_msgs__rosidl_generator_c\n'}
+[6.283167] (my_first_package_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.305182] (-) TimerEvent: {}
+[6.409047] (-) TimerEvent: {}
+[6.518043] (-) TimerEvent: {}
+[6.529339] (my_first_package_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.564555] (my_first_package_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[6.635540] (-) TimerEvent: {}
+[6.737622] (-) TimerEvent: {}
+[6.847763] (-) TimerEvent: {}
+[6.948596] (-) TimerEvent: {}
+[7.058243] (-) TimerEvent: {}
+[7.195126] (-) TimerEvent: {}
+[7.301249] (-) TimerEvent: {}
+[7.407109] (-) TimerEvent: {}
+[7.550346] (-) TimerEvent: {}
+[7.617526] (my_first_package_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o\x1b[0m\n'}
+[7.680394] (-) TimerEvent: {}
+[7.787088] (-) TimerEvent: {}
+[7.896063] (-) TimerEvent: {}
+[7.996942] (-) TimerEvent: {}
+[8.097739] (-) TimerEvent: {}
+[8.201509] (my_first_package_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.201688] (-) TimerEvent: {}
+[8.305916] (-) TimerEvent: {}
+[8.318210] (my_first_package_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package_msgs/msg/detail/dds_fastrtps/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[8.421289] (-) TimerEvent: {}
+[8.527822] (-) TimerEvent: {}
+[8.556042] (my_first_package_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package_msgs/action/dist_turtle__type_support.cpp.o\x1b[0m\n'}
+[8.645725] (-) TimerEvent: {}
+[8.747265] (-) TimerEvent: {}
+[8.922869] (-) TimerEvent: {}
+[9.036783] (-) TimerEvent: {}
+[9.137874] (-) TimerEvent: {}
+[9.241308] (-) TimerEvent: {}
+[9.373108] (-) TimerEvent: {}
+[9.478569] (-) TimerEvent: {}
+[9.636150] (-) TimerEvent: {}
+[9.764021] (-) TimerEvent: {}
+[9.878910] (-) TimerEvent: {}
+[9.991340] (-) TimerEvent: {}
+[10.126917] (-) TimerEvent: {}
+[10.253674] (-) TimerEvent: {}
+[10.392341] (-) TimerEvent: {}
+[10.544576] (-) TimerEvent: {}
+[10.671297] (-) TimerEvent: {}
+[10.764716] (my_first_package_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package_msgs/srv/detail/dds_fastrtps/multi_spawn__type_support.cpp.o\x1b[0m\n'}
+[10.772596] (-) TimerEvent: {}
+[10.974242] (my_first_package_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.974416] (-) TimerEvent: {}
+[11.081308] (-) TimerEvent: {}
+[11.192727] (-) TimerEvent: {}
+[11.312691] (my_first_package_msgs) StdoutLine: {'line': b'[ 29%] Built target my_first_package_msgs__rosidl_typesupport_cpp\n'}
+[11.312937] (-) TimerEvent: {}
+[11.371291] (my_first_package_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.434178] (-) TimerEvent: {}
+[11.541230] (-) TimerEvent: {}
+[11.646741] (-) TimerEvent: {}
+[11.751843] (-) TimerEvent: {}
+[11.859469] (-) TimerEvent: {}
+[11.991300] (-) TimerEvent: {}
+[12.109490] (-) TimerEvent: {}
+[12.238787] (-) TimerEvent: {}
+[12.376977] (-) TimerEvent: {}
+[12.482890] (-) TimerEvent: {}
+[12.681073] (-) TimerEvent: {}
+[12.714904] (my_first_package_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package_msgs/action/detail/dds_fastrtps/dist_turtle__type_support.cpp.o\x1b[0m\n'}
+[12.848506] (-) TimerEvent: {}
+[12.968857] (-) TimerEvent: {}
+[13.079892] (-) TimerEvent: {}
+[13.188223] (-) TimerEvent: {}
+[13.298135] (-) TimerEvent: {}
+[13.339615] (my_first_package_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[13.403621] (-) TimerEvent: {}
+[13.468046] (my_first_package_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[13.674103] (-) TimerEvent: {}
+[13.779725] (-) TimerEvent: {}
+[13.884930] (-) TimerEvent: {}
+[13.890055] (my_first_package_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.986941] (-) TimerEvent: {}
+[14.116246] (-) TimerEvent: {}
+[14.138323] (my_first_package_msgs) StdoutLine: {'line': b'[ 38%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[14.226373] (-) TimerEvent: {}
+[14.348037] (-) TimerEvent: {}
+[14.455569] (-) TimerEvent: {}
+[14.456143] (my_first_package_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_msgs/srv/detail/multi_spawn__type_support.cpp.o\x1b[0m\n'}
+[14.562629] (-) TimerEvent: {}
+[14.650805] (my_first_package_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[14.665882] (-) TimerEvent: {}
+[14.676771] (my_first_package_msgs) StdoutLine: {'line': b'writing my_first_package_msgs.egg-info/PKG-INFO\n'}
+[14.679998] (my_first_package_msgs) StdoutLine: {'line': b'writing dependency_links to my_first_package_msgs.egg-info/dependency_links.txt\n'}
+[14.681859] (my_first_package_msgs) StdoutLine: {'line': b'writing top-level names to my_first_package_msgs.egg-info/top_level.txt\n'}
+[14.777047] (-) TimerEvent: {}
+[14.798531] (my_first_package_msgs) StdoutLine: {'line': b"reading manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'\n"}
+[14.800636] (my_first_package_msgs) StdoutLine: {'line': b"writing manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'\n"}
+[14.838875] (my_first_package_msgs) StdoutLine: {'line': b'[ 40%] Built target ament_cmake_python_build_my_first_package_msgs_egg\n'}
+[14.889956] (-) TimerEvent: {}
+[15.033173] (-) TimerEvent: {}
+[15.060729] (my_first_package_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_msgs/action/detail/dist_turtle__type_support.cpp.o\x1b[0m\n'}
+[15.133623] (-) TimerEvent: {}
+[15.235020] (-) TimerEvent: {}
+[15.356422] (-) TimerEvent: {}
+[15.456701] (-) TimerEvent: {}
+[15.557091] (-) TimerEvent: {}
+[15.657623] (-) TimerEvent: {}
+[15.757880] (-) TimerEvent: {}
+[15.858183] (-) TimerEvent: {}
+[15.958530] (-) TimerEvent: {}
+[15.973173] (my_first_package_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.058638] (-) TimerEvent: {}
+[16.098813] (my_first_package_msgs) StdoutLine: {'line': b'[ 44%] Built target my_first_package_msgs__rosidl_typesupport_introspection_cpp\n'}
+[16.139819] (my_first_package_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.158736] (-) TimerEvent: {}
+[16.259159] (-) TimerEvent: {}
+[16.359790] (-) TimerEvent: {}
+[16.460781] (-) TimerEvent: {}
+[16.561300] (-) TimerEvent: {}
+[16.661720] (-) TimerEvent: {}
+[16.762059] (-) TimerEvent: {}
+[16.862776] (-) TimerEvent: {}
+[16.963111] (-) TimerEvent: {}
+[17.063445] (-) TimerEvent: {}
+[17.164433] (-) TimerEvent: {}
+[17.166388] (my_first_package_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[17.193745] (my_first_package_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support_c.cpp.o\x1b[0m\n'}
+[17.266547] (-) TimerEvent: {}
+[17.402985] (-) TimerEvent: {}
+[17.548775] (-) TimerEvent: {}
+[17.574964] (my_first_package_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package_msgs/srv/detail/multi_spawn__type_support_c.cpp.o\x1b[0m\n'}
+[17.653084] (-) TimerEvent: {}
+[17.759621] (-) TimerEvent: {}
+[17.925399] (-) TimerEvent: {}
+[18.033147] (-) TimerEvent: {}
+[18.123371] (my_first_package_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package_msgs/action/detail/dist_turtle__type_support_c.cpp.o\x1b[0m\n'}
+[18.156077] (-) TimerEvent: {}
+[18.266354] (-) TimerEvent: {}
+[18.523878] (-) TimerEvent: {}
+[18.607334] (my_first_package_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.625019] (-) TimerEvent: {}
+[18.720957] (my_first_package_msgs) StdoutLine: {'line': b'[ 55%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c\n'}
+[18.725114] (-) TimerEvent: {}
+[18.736967] (my_first_package_msgs) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[18.825215] (-) TimerEvent: {}
+[18.925747] (-) TimerEvent: {}
+[19.026318] (-) TimerEvent: {}
+[19.127034] (-) TimerEvent: {}
+[19.227699] (-) TimerEvent: {}
+[19.328339] (-) TimerEvent: {}
+[19.428889] (-) TimerEvent: {}
+[19.529407] (-) TimerEvent: {}
+[19.629893] (-) TimerEvent: {}
+[19.730384] (-) TimerEvent: {}
+[19.731771] (my_first_package_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[19.753333] (my_first_package_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c.o\x1b[0m\n'}
+[19.831369] (-) TimerEvent: {}
+[19.833336] (my_first_package_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package_msgs/srv/detail/multi_spawn__type_support.c.o\x1b[0m\n'}
+[19.925774] (my_first_package_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package_msgs/action/detail/dist_turtle__type_support.c.o\x1b[0m\n'}
+[19.931844] (-) TimerEvent: {}
+[20.023515] (my_first_package_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libmy_first_package_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[20.032038] (-) TimerEvent: {}
+[20.080128] (my_first_package_msgs) StdoutLine: {'line': b'[ 65%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c\n'}
+[20.122778] (my_first_package_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.132124] (-) TimerEvent: {}
+[20.281126] (-) TimerEvent: {}
+[20.396689] (-) TimerEvent: {}
+[20.505314] (-) TimerEvent: {}
+[20.608131] (-) TimerEvent: {}
+[20.689222] (my_first_package_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[20.729116] (-) TimerEvent: {}
+[20.737796] (my_first_package_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[20.834297] (-) TimerEvent: {}
+[20.848871] (my_first_package_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o\x1b[0m\n'}
+[20.929596] (my_first_package_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o\x1b[0m\n'}
+[20.934388] (-) TimerEvent: {}
+[21.021248] (my_first_package_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[21.034491] (-) TimerEvent: {}
+[21.076839] (my_first_package_msgs) StdoutLine: {'line': b'[ 76%] Built target my_first_package_msgs__rosidl_typesupport_c\n'}
+[21.134892] (-) TimerEvent: {}
+[21.144050] (my_first_package_msgs) StdoutLine: {'line': b'[ 76%] Built target my_first_package_msgs\n'}
+[21.172684] (my_first_package_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.234969] (-) TimerEvent: {}
+[21.340406] (-) TimerEvent: {}
+[21.459897] (-) TimerEvent: {}
+[21.560175] (-) TimerEvent: {}
+[21.660429] (-) TimerEvent: {}
+[21.760995] (-) TimerEvent: {}
+[21.861270] (-) TimerEvent: {}
+[21.961762] (-) TimerEvent: {}
+[22.062117] (-) TimerEvent: {}
+[22.162374] (-) TimerEvent: {}
+[22.262668] (-) TimerEvent: {}
+[22.362930] (-) TimerEvent: {}
+[22.463193] (-) TimerEvent: {}
+[22.563468] (-) TimerEvent: {}
+[22.663708] (-) TimerEvent: {}
+[22.763979] (-) TimerEvent: {}
+[22.864212] (-) TimerEvent: {}
+[22.964467] (-) TimerEvent: {}
+[23.064715] (-) TimerEvent: {}
+[23.164995] (-) TimerEvent: {}
+[23.271060] (-) TimerEvent: {}
+[23.379726] (-) TimerEvent: {}
+[23.388149] (my_first_package_msgs) StdoutLine: {'line': b'[ 78%] Built target my_first_package_msgs__py\n'}
+[23.402717] (my_first_package_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_generator_py\x1b[0m\n'}
+[23.481427] (my_first_package_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c.o\x1b[0m\n'}
+[23.481594] (-) TimerEvent: {}
+[23.589486] (-) TimerEvent: {}
+[23.689944] (-) TimerEvent: {}
+[23.817401] (-) TimerEvent: {}
+[23.850809] (my_first_package_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_msgs/srv/_multi_spawn_s.c.o\x1b[0m\n'}
+[23.919619] (-) TimerEvent: {}
+[24.028594] (-) TimerEvent: {}
+[24.127906] (my_first_package_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_msgs/action/_dist_turtle_s.c.o\x1b[0m\n'}
+[24.129044] (-) TimerEvent: {}
+[24.265749] (-) TimerEvent: {}
+[24.369897] (-) TimerEvent: {}
+[24.488383] (-) TimerEvent: {}
+[24.610882] (-) TimerEvent: {}
+[24.709264] (my_first_package_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/libmy_first_package_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[24.713705] (-) TimerEvent: {}
+[24.816117] (-) TimerEvent: {}
+[24.927145] (-) TimerEvent: {}
+[25.035626] (my_first_package_msgs) StdoutLine: {'line': b'[ 87%] Built target my_first_package_msgs__rosidl_generator_py\n'}
+[25.035815] (-) TimerEvent: {}
+[25.092635] (my_first_package_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[25.148456] (-) TimerEvent: {}
+[25.152284] (my_first_package_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[25.282082] (-) TimerEvent: {}
+[25.394783] (-) TimerEvent: {}
+[25.501639] (my_first_package_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[25.505621] (-) TimerEvent: {}
+[25.598947] (my_first_package_msgs) StdoutLine: {'line': b'[ 91%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[25.649542] (-) TimerEvent: {}
+[25.703113] (my_first_package_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[25.732249] (my_first_package_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[25.777683] (-) TimerEvent: {}
+[25.893732] (-) TimerEvent: {}
+[25.994588] (-) TimerEvent: {}
+[26.112728] (-) TimerEvent: {}
+[26.166241] (my_first_package_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.221315] (-) TimerEvent: {}
+[26.277688] (my_first_package_msgs) StdoutLine: {'line': b'[ 95%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[26.323607] (-) TimerEvent: {}
+[26.334742] (my_first_package_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[26.361344] (my_first_package_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[26.433260] (-) TimerEvent: {}
+[26.578624] (-) TimerEvent: {}
+[26.685846] (-) TimerEvent: {}
+[26.690662] (my_first_package_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.786834] (-) TimerEvent: {}
+[26.788798] (my_first_package_msgs) StdoutLine: {'line': b'[100%] Built target my_first_package_msgs__rosidl_typesupport_c__pyext\n'}
+[26.809694] (my_first_package_msgs) CommandEnded: {'returncode': 0}
+[26.886952] (-) TimerEvent: {}
+[26.987497] (-) TimerEvent: {}
+[27.087915] (-) TimerEvent: {}
+[27.165523] (my_first_package_msgs) JobProgress: {'identifier': 'my_first_package_msgs', 'progress': 'install'}
+[27.177489] (my_first_package_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs'], 'cwd': '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'krism01'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/krism01'), ('OLDPWD', '/home/krism01/python/ros/ros2_study/src/my_first_package_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1515'), ('SYSTEMD_EXEC_PID', '1657'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3691'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/krism01/python/ros/ros2_study/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'krism01'), ('JOURNAL_STREAM', '8:24087'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'krism01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/krism01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/krism01-VirtualBox:@/tmp/.ICE-unix/1638,unix/krism01-VirtualBox:/tmp/.ICE-unix/1638'), ('INVOCATION_ID', 'e2738b595ba94ff2bcda8dea9ebde417'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AMNIL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs:/home/krism01/python/ros/ros2_study/install/my_first_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:82b32b22-06a0-4fdc-8c54-2aa3126555b3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/krism01/python/ros/ros2_study/build/my_first_package_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages:/home/krism01/python/ros/ros2_study/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs:/home/krism01/python/ros/ros2_study/install/my_first_package:/opt/ros/humble')]), 'shell': False}
+[27.189779] (my_first_package_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.197447] (-) TimerEvent: {}
+[27.197649] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/ament_index/resource_index/rosidl_interfaces/my_first_package_msgs\n'}
+[27.197748] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs\n'}
+[27.197878] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action\n'}
+[27.198137] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail\n'}
+[27.198389] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__struct.h\n'}
+[27.198641] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.h\n'}
+[27.198896] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__functions.h\n'}
+[27.199171] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__functions.c\n'}
+[27.203373] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/dist_turtle.h\n'}
+[27.203470] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg\n'}
+[27.203738] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.h\n'}
+[27.203816] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail\n'}
+[27.203891] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.c\n'}
+[27.203964] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.h\n'}
+[27.204037] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.h\n'}
+[27.204109] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.h\n'}
+[27.204180] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.204259] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv\n'}
+[27.204331] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail\n'}
+[27.204407] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.h\n'}
+[27.204480] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.h\n'}
+[27.204551] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.h\n'}
+[27.204622] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.c\n'}
+[27.204693] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.h\n'}
+[27.204764] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.sh\n'}
+[27.204835] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.dsv\n'}
+[27.204906] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_c.so\n'}
+[27.204977] (my_first_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_c.so" to ""\n'}
+[27.205048] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs\n'}
+[27.205118] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action\n'}
+[27.205189] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail\n'}
+[27.205260] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[27.205332] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg\n'}
+[27.205411] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail\n'}
+[27.205482] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h\n'}
+[27.205555] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.205630] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv\n'}
+[27.205701] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail\n'}
+[27.205772] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[27.205843] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[27.205914] (my_first_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[27.205985] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs\n'}
+[27.206056] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action\n'}
+[27.206126] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail\n'}
+[27.206201] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_introspection_c.h\n'}
+[27.206273] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.c\n'}
+[27.206346] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg\n'}
+[27.206417] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail\n'}
+[27.206487] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h\n'}
+[27.206559] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c\n'}
+[27.206630] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[27.206701] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv\n'}
+[27.206772] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail\n'}
+[27.206843] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_c.h\n'}
+[27.206919] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.c\n'}
+[27.206990] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_c.so\n'}
+[27.207061] (my_first_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[27.208826] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_c.so\n'}
+[27.208940] (my_first_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_c.so" to ""\n'}
+[27.209020] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs\n'}
+[27.209095] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action\n'}
+[27.209168] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail\n'}
+[27.209242] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__builder.hpp\n'}
+[27.209315] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__struct.hpp\n'}
+[27.210134] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__traits.hpp\n'}
+[27.210231] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/dist_turtle.hpp\n'}
+[27.210308] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg\n'}
+[27.210382] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail\n'}
+[27.210460] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp\n'}
+[27.210533] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp\n'}
+[27.211650] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp\n'}
+[27.211750] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.hpp\n'}
+[27.211829] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv\n'}
+[27.211910] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail\n'}
+[27.211985] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp\n'}
+[27.212558] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp\n'}
+[27.212654] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp\n'}
+[27.212730] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.hpp\n'}
+[27.213170] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs\n'}
+[27.213265] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action\n'}
+[27.213341] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail\n'}
+[27.213414] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.213950] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dds_fastrtps\n'}
+[27.214045] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg\n'}
+[27.214122] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail\n'}
+[27.214206] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/dds_fastrtps\n'}
+[27.214280] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.214895] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[27.215694] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv\n'}
+[27.215776] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail\n'}
+[27.215851] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/dds_fastrtps\n'}
+[27.215924] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.218203] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[27.218305] (my_first_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[27.218384] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs\n'}
+[27.218474] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action\n'}
+[27.218547] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail\n'}
+[27.218620] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.218692] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/action/detail/dist_turtle__type_support.cpp\n'}
+[27.219490] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg\n'}
+[27.219595] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail\n'}
+[27.219677] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.219751] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp\n'}
+[27.219824] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv\n'}
+[27.219895] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail\n'}
+[27.219966] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.220038] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.cpp\n'}
+[27.222464] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[27.222602] (my_first_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[27.223746] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_cpp.so\n'}
+[27.224286] (my_first_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[27.224493] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.sh\n'}
+[27.224688] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.dsv\n'}
+[27.224968] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info\n'}
+[27.225147] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[27.225401] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[27.225655] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[27.225914] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[27.226207] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs\n'}
+[27.226398] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.226708] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[27.227037] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.227340] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/__init__.py\n'}
+[27.227575] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/libmy_first_package_msgs__rosidl_generator_py.so\n'}
+[27.227889] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action\n'}
+[27.228113] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/_dist_turtle_s.c\n'}
+[27.228398] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/__init__.py\n'}
+[27.228640] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/_dist_turtle.py\n'}
+[27.228927] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg\n'}
+[27.229105] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/_cmd_and_pose_vel.py\n'}
+[27.229372] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/__init__.py\n'}
+[27.229638] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c\n'}
+[27.229925] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv\n'}
+[27.230091] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/_multi_spawn.py\n'}
+[27.230344] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/_multi_spawn_s.c\n'}
+[27.230606] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/__init__.py\n'}
+[27.230846] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.238912] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[27.239323] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[27.301834] (-) TimerEvent: {}
+[27.324198] (my_first_package_msgs) StdoutLine: {'line': b"Listing '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs'...\n"}
+[27.324357] (my_first_package_msgs) StdoutLine: {'line': b"Compiling '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/__init__.py'...\n"}
+[27.324440] (my_first_package_msgs) StdoutLine: {'line': b"Listing '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action'...\n"}
+[27.324516] (my_first_package_msgs) StdoutLine: {'line': b"Compiling '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/__init__.py'...\n"}
+[27.324590] (my_first_package_msgs) StdoutLine: {'line': b"Compiling '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/action/_dist_turtle.py'...\n"}
+[27.324663] (my_first_package_msgs) StdoutLine: {'line': b"Listing '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg'...\n"}
+[27.324736] (my_first_package_msgs) StdoutLine: {'line': b"Compiling '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/__init__.py'...\n"}
+[27.324814] (my_first_package_msgs) StdoutLine: {'line': b"Compiling '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/_cmd_and_pose_vel.py'...\n"}
+[27.324887] (my_first_package_msgs) StdoutLine: {'line': b"Listing '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv'...\n"}
+[27.324959] (my_first_package_msgs) StdoutLine: {'line': b"Compiling '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/__init__.py'...\n"}
+[27.325031] (my_first_package_msgs) StdoutLine: {'line': b"Compiling '/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/_multi_spawn.py'...\n"}
+[27.331463] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.331646] (my_first_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[27.331769] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.331848] (my_first_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[27.331923] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.332007] (my_first_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[27.353181] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_py.so\n'}
+[27.353335] (my_first_package_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_py.so" to ""\n'}
+[27.353432] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.idl\n'}
+[27.353510] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.idl\n'}
+[27.353585] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.idl\n'}
+[27.353660] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.msg\n'}
+[27.353738] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.srv\n'}
+[27.353816] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn_Request.msg\n'}
+[27.353891] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn_Response.msg\n'}
+[27.353964] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/action/DistTurtle.action\n'}
+[27.354038] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/ament_index/resource_index/package_run_dependencies/my_first_package_msgs\n'}
+[27.354112] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/ament_index/resource_index/parent_prefix_path/my_first_package_msgs\n'}
+[27.354185] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.sh\n'}
+[27.354259] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.dsv\n'}
+[27.354332] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.sh\n'}
+[27.354405] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.dsv\n'}
+[27.354478] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.bash\n'}
+[27.354550] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.sh\n'}
+[27.354623] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.zsh\n'}
+[27.354696] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.dsv\n'}
+[27.354769] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/package.dsv\n'}
+[27.354841] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/ament_index/resource_index/packages/my_first_package_msgs\n'}
+[27.354914] (my_first_package_msgs) StdoutLine: {'line': b'-- Old export file "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport-noconfig.cmake].\n'}
+[27.354990] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport.cmake\n'}
+[27.355064] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[27.355138] (my_first_package_msgs) StdoutLine: {'line': b'-- Old export file "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[27.355218] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[27.355301] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[27.355375] (my_first_package_msgs) StdoutLine: {'line': b'-- Old export file "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[27.355454] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.355527] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[27.355601] (my_first_package_msgs) StdoutLine: {'line': b'-- Old export file "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[27.355676] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport.cmake\n'}
+[27.355749] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[27.355822] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cppExport.cmake\n'}
+[27.355894] (my_first_package_msgs) StdoutLine: {'line': b'-- Old export file "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[27.355969] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[27.356042] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[27.356116] (my_first_package_msgs) StdoutLine: {'line': b'-- Old export file "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[27.356194] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.356268] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[27.356341] (my_first_package_msgs) StdoutLine: {'line': b'-- Old export file "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[27.356416] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[27.356489] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[27.356569] (my_first_package_msgs) StdoutLine: {'line': b'-- Old export file "/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport-noconfig.cmake].\n'}
+[27.356648] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport.cmake\n'}
+[27.356722] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[27.356794] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[27.356866] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.356939] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.357011] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.357084] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.357156] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[27.357229] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[27.357305] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig.cmake\n'}
+[27.357377] (my_first_package_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig-version.cmake\n'}
+[27.357450] (my_first_package_msgs) StdoutLine: {'line': b'-- Installing: /home/krism01/python/ros/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/package.xml\n'}
+[27.357522] (my_first_package_msgs) CommandEnded: {'returncode': 0}
+[27.411684] (-) TimerEvent: {}
+[27.517451] (-) TimerEvent: {}
+[27.623371] (-) TimerEvent: {}
+[27.740838] (-) TimerEvent: {}
+[27.826883] (my_first_package_msgs) JobEnded: {'identifier': 'my_first_package_msgs', 'rc': 0}
+[27.828506] (-) EventReactorShutdown: {}

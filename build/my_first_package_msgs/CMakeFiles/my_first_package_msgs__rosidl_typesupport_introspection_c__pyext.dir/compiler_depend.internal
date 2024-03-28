@@ -247,4 +247,8 @@ CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c__pyext.dir/
  /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h
  /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.h
  /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.h
+ /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__type_support.h
+ /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__struct.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+ /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__functions.h
 
