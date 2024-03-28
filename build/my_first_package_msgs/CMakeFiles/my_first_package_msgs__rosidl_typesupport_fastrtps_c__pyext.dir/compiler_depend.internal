@@ -251,4 +251,9 @@ CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosid
  /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__struct.h
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
  /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__functions.h
+ /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__type_support.h
+ /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__struct.h
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+ /home/krism01/python/ros/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__functions.h
 
